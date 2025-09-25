@@ -10,16 +10,19 @@
         <h1 class="question">How are you feeling today?</h1>
     </header>
     <main>
-        <form action="/submit-mood" method="POST">
-            <div class="mood_options">
-                <button type="submit" name="mood" value="happy" class="happy"><a href="happy.html">Happy &#128513;</a></button>
-                <button type="submit" name="mood" value="sad" class="sad"><a href="sad.html">Sad &#128542;</a></button>
-                <button type="submit" name="mood" value="excited" class="excited"><a href="excited.html">Excited &#129321;</a></button>
-                <button type="submit" name="mood" value="angry" class="angry"><a href="angry.html">Angry &#128545;</a></button>
-                <button type="submit" name="mood" value="sick" class="sick"><a href="sick.html">Sick &#129314;</a></button>
-                <button type="submit" name="mood" value="bored" class="bored"><a href="bored.html">Bored &#128528;</a></button>
-            </div>
-            </ul>
-        </form>
+        <div class="mood_options">
+            <button type="type" data-mood="happy">Happy &#128513;</button>
+            <button type="type" data-mood="sad">Sad &#128542;</button>
+            <button type="type" data-mood="excited">Excited &#129321;</button>
+            <button type="type" data-mood="angry">Angry &#128545;</button>
+            <button type="type" data-mood="sick">Sick &#129314;</button>
+            <button type="type" data-mood="bored">Bored &#128528;</button>
+        </div>
+
+        <section id="mood-display">
+            <h2>Select your todays mood</h2>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
