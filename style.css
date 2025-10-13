@@ -1,3 +1,13 @@
+/* chosen colours from darkest to lightest: #433E65, #5B558B, #7B74AA, #938DB9, #B7B3D0 */
 body {
-    background-color: rgb(196, 226, 226);
+    background-color: #B7B3D0;
+    text-align: center;
+}
+
+.mood_options button {
+    background-color: #433E65;
+    color: #B7B3D0;
+    border-radius: 30px;
+    border-width: 1px;
+    text-align: center;
 }
